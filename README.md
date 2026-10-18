@@ -13,7 +13,8 @@ web-automation-extension/
 │   ├── site-recon.md                 # 摸现场清单：编码前必须采集的站点信息
 │   ├── exception-playbook.md         # 异常分支手册：主流程之外的 90% 工程量
 │   ├── platform-gotchas.md           # 平台坑速查：节流保活 / 合成点击 / 选择器漂移 / 测试环境限制
-│   ├── case-lingdongsz.md            # 实战案例：生产级自动导出插件 v1.0→v1.5.0 全记录
+│   ├── case-production-plugin.md       # 实战案例：生产级自动导出插件 v1.0→v1.5.0 全记录
+│   ├── assets/                         # 案例截图（隐私区域已打码）
 │   └── testing-harness.md            # jsdom 测试 harness 使用指南
 └── scripts/
     ├── new-test-template.js          # 端到端测试模板：复制即用，10 分钟搭出主循环测试
@@ -65,7 +66,7 @@ node test_main_loop.js
 
 ## 来源
 
-方法论从生产级项目「蓝鲸选品自动导出助手」（Chrome MV3 扩展，v1.0 → v1.5.0，9 个 jsdom 端到端测试全绿）的全周期开发中提炼，每个结论都有对应的实战记录，详见 `references/case-lingdongsz.md`。
+方法论从生产级项目「选品网站自动导出助手」（Chrome MV3 扩展，v1.0 → v1.5.0，9 个 jsdom 端到端测试全绿）的全周期开发中提炼，每个结论都有对应的实战记录，详见 `references/case-production-plugin.md`。
 
 ## License
 
