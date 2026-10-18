@@ -61,7 +61,7 @@ Translate vague feedback ("it stopped working") into "operation sequence + obser
 - `site-recon.md` — Step 1 checklist: what to collect about any target site before coding
 - `exception-playbook.md` — Step 2 templates: exception table, detection layering, state machine, rate-limit handling
 - `platform-gotchas.md` — Load before debugging any "it hangs / it stopped / clicks do nothing" issue: Chrome intensive throttling and the silent-audio keep-alive, synthetic click isTrusted and capture-listener swallowing, SPA selector drift and stable-attribute hooks, jsdom test-environment limits, downloads API detection
-- `case-lingdongsz.md` — The worked production case: site quirks, architecture, and how each of the three v1.5.0 bugs was root-caused and fixed in three layers
+- `case-production-plugin.md` — The worked production case: site quirks, architecture, and how each of the three v1.5.0 bugs was root-caused and fixed in three layers
 - `testing-harness.md` — How to use the test template, the four-element fake site, chrome API mocking, timing budget rules
 
 ### scripts/
